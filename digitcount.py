@@ -1,7 +1,7 @@
 '''enter a num and count its digits '''
 num=int(input("enter the num:"))
-x=0
+x=0   #count=x
 while num>0:
     x=x+1
-    num=num//10
-    print(f"Digit_count=",x)
+    num=num//10  #floor division--removes teh last integer everytime and resuls into num of digit
+    print(f"No of digits=",x)
