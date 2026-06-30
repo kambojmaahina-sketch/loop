@@ -1,5 +1,6 @@
 '''enter a num and print sum of all natural num upto it'''
 n=int(input("enter the num:"))
+sum=0
 i=1
 while i<=n:
     sum=sum+i
